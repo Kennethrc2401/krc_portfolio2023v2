@@ -1,0 +1,65 @@
+import { useEffect , useState} from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Project from './projectInfo.json';
+
+function ProjectCard() { 
+  const [data,setData]=useState([]);
+  const getData=()=>{
+    fetch('./projectInfo.json'
+    ,{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+    )
+      .then(function(response){
+        console.log(response)
+        return response.json();
+      })
+      .then(function(myJson) {
+        console.log(myJson);
+        setData(myJson)
+      });
+  }
+  useEffect(()=>{
+    getData()
+  },[])
+
+  return (
+    <>
+      <div>
+        <h3>Using local JSON file</h3>
+        {Object.values(Project.project).map((item, v) => (
+            
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+
+            <li value={v}>
+              <img src={item.imageSrc}/>
+              <br />
+              <span>Key name : {item.title}</span>
+              <br />
+              <span>Key name : {item.dateCreated}</span>
+              <br />
+              <span>Key name : {item.url}</span>
+              <br />
+            </li>
+          
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+
+    ))}
+    </div>
+    </>
+
+  );
+}
+
+export default ProjectCard;
