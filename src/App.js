@@ -9,56 +9,21 @@ import Navbar from './Navigation/Navbar.js';
 // import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
 // Navbar Instructions: https://retool.com/blog/building-a-react-navbar/
 import ProjectGrid from './components/projectGrid/projectGrid.js';
-import WSPGallery from './components/WSPGallery';
+import { About } from './components/about/about.js';
 
 function App() {
-  const galleryImages = [
-    {
-      img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
-    },
-    {
-      img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
-    },
-    {
-      img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
-    },
-    {
-      img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
-    },
-    {
-      img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
-    },
-    {
-      img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
-    }
-  ]
+  
 
   return (
     <div className="App">
       <Navbar />
-      {/* <ProjectGrid /> */}
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        
-      </header>
+      <ProjectGrid />
+      <About />
+      
       <br></br>
       <br></br>
       <br></br>
       <br></br>
-      <WSPGallery
-        galleryImages={galleryImages}
-      />
     </div>
   );
 }

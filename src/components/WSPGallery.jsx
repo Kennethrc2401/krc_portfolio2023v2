@@ -77,3 +77,30 @@ const WSPGallery = ({ galleryImages }) => {
 }
 
 export default WSPGallery;
+
+// This would go in App.js:
+// import WSPGallery from './components/WSPGallery';
+  // const galleryImages = [
+  //   {
+  //     img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
+  //   },
+  //   {
+  //     img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
+  //   },
+  //   {
+  //     img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
+  //   },
+  //   {
+  //     img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
+  //   },
+  //   {
+  //     img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
+  //   },
+  //   {
+  //     img: 'https://kennethrc2401.github.io/Kenneth-s_Portfolio/resources/images/Dasmoto.png'
+  //   }
+  // ]
+  
+//   {/* <WSPGallery
+//         galleryImages={galleryImages}
+//       /> */}

@@ -4,10 +4,13 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
+import Logo from '../pjtImgs/Logo.png';
+
 const navigation = [
-  { name: "Dashboard", href: "../public/index.html", current: false },
+  { name: "Dashboard", href: "../public/index.html", current: false},
   { name: "About", href: "../about/about.html", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Projects", href: "../projects/project.html", current: false },
+  { name: "Robotics", href: "#", current: false },
   { name: "Calendar", href: "#", current: false },
 ];
 
@@ -37,13 +40,15 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
+                    // src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    src={Logo}
+                    alt="Logo"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
+                    // src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
+                    src={Logo}
+                    alt="Logo"
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
@@ -62,6 +67,9 @@ export default function Navbar() {
                       >
                         {item.name}
                       </a>
+                    // Maybe create a function and call it here to determine which page 
+                    // section component to render.
+
                     ))}
                   </div>
                 </div>
@@ -83,7 +91,7 @@ export default function Navbar() {
                       <img
                         className="h-8 w-8 rounded-full"
                         src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
+                        alt="Profile"
                       />
                     </Menu.Button>
                   </div>
