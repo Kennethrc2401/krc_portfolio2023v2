@@ -55,13 +55,78 @@ function determineImg(imageName){
         return <img src={require('../pjtImgs/Hotels-In-Singapore.png')} alt="Hotels in Singapore"/>
       case 'wareHouseCapstoneProject': 
         return <img src={require('../pjtImgs/WareHouse.png')} alt="Warehouse Capstone Project"/>
+      case 'SpanishHonorSocietyHHS': 
+        return <img src={require('../pjtImgs/spanish_honor_society_hhs.png')} alt="Sanish Honor Society"/>
+      case 'MothersDayCard2019': 
+        return <img src={require('../pjtImgs/mothers_day_2019.png')} alt="Mothers Day 2019"/>
+      case 'HappyEaster2019': 
+        return <img src={require('../pjtImgs/HappyEaster2019.png')} alt="Happy Easter 2019"/>
+      case 'HappyHalloween2018': 
+        return <img src={require('../pjtImgs/HappyHalloween2018.png')} alt="Happy Halloween 2018"/>
+      case 'HappyThanksgiving2018': 
+        return <img src={require('../pjtImgs/HappyThanksgiving2018.png')} alt="Happy Thanksgiving 2018"/>
+      case 'HappyHolidays201819':
+        return <img src={require('../pjtImgs/HappyHolidays201819.png')} alt="Happy Holidays 2018-2019"/>
       default:  
         return <img src='' alt="null"/>
     }
   };
 
 export const projectData = [
-    
+    {
+        key: cyrb53("mothersDayCard2019"),
+        imgSrc: determineImg("MothersDayCard2019"),
+        title: "Mother's Day 2019",
+        description: "...",
+        dateCreated: "May 11, 2019",
+        siteUrl: "https://kennethrc2401.github.io/Mother-s-Day-2019/",
+        toolsUsed: '...'
+    },
+    {
+        key: cyrb53("happyEaster2019"),
+        imgSrc: determineImg("HappyEaster2019"),
+        title: "Happy Easter 2019",
+        description: "...",
+        dateCreated: "April 20, 2019",
+        siteUrl: "https://kennethrc2401.github.io/Happy-Easter-2019/",
+        toolsUsed: '...'
+    },
+    {
+        key: cyrb53("spanishHonorSocietyHHS"),
+        imgSrc: determineImg("SpanishHonorSocietyHHS"),
+        title: "Spanish Honor Society - HHS",
+        description: "...",
+        dateCreated: "March 12, 2019",
+        siteUrl: "https://kennethrc2401.github.io/Spanish-Honor-Society/",
+        toolsUsed: '...'
+    },
+    {
+        key: cyrb53("happyHolidays201819"),
+        imgSrc: determineImg("HappyHolidays201819"),
+        title: "Happy Holidays 2018-2019!",
+        description: "...",
+        dateCreated: "November 29, 2018",
+        siteUrl: "https://kennethrc2401.github.io/Happy-Holidays-2018-2019/",
+        toolsUsed: '...'
+    },
+    {
+        key: cyrb53("happyThanksgiving2018"),
+        imgSrc: determineImg("HappyThanksgiving2018"),
+        title: "Happy Thanksgiving 2018!",
+        description: "...",
+        dateCreated: "November 19, 2018",
+        siteUrl: "https://kennethrc2401.github.io/Thanksgiving-2018/",
+        toolsUsed: '...'
+    },
+    {
+        key: cyrb53("happyHalloween2018"),
+        imgSrc: determineImg("HappyHalloween2018"),
+        title: "Happy Halloween 2018!",
+        description: "...",
+        dateCreated: "October 26, 2018",
+        siteUrl: "https://kennethrc2401.github.io/HappyHalloween2018/",
+        toolsUsed: '...'
+    },
     {
         key: cyrb53("myTimes"),
         imgSrc: determineImg("MyTimes"),

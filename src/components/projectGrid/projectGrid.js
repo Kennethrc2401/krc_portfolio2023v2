@@ -11,7 +11,7 @@ import { flexbox } from '@mui/system';
 
 function ProjectGrid() {
   return (
-    <Container>
+    <Container style={{zIndex: '0'}}>
       <Row style={{display: 'flex'}}>
             {/* <ProjectCard /> */}
             {/* <div>
@@ -40,7 +40,7 @@ function ProjectGrid() {
                           <br></br>
                           Tools Used: {project.toolsUsed}
                       </Card.Text>
-                      <Button variant="primary" href={project.siteUrl} target="_blank">View Project</Button>
+                      <Button variant="primary" href={project.siteUrl} target="_blank" size='sm'>View Project</Button>
                     </Card.Body>
                   </Card>
 

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import styles from './about.css';
 
 export class About extends Component {
         render () {

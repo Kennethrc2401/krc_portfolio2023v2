@@ -5,6 +5,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
 import Logo from '../pjtImgs/Logo.png';
+import zIndex from "@mui/material/styles/zIndex";
 
 const navigation = [
   { name: "Dashboard", href: "../public/index.html", current: false},
@@ -84,7 +85,7 @@ export default function Navbar() {
                 </button>
 
                 {/* Profile dropdown */}
-                <Menu as="div" className="ml-3 relative">
+                <Menu as="div" className="ml-3 relative" style={{ zIndex: '10'}}>
                   <div>
                     <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                       <span className="sr-only">Open user menu</span>

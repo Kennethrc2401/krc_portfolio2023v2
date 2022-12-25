@@ -10,6 +10,7 @@ import Navbar from './Navigation/Navbar.js';
 // Navbar Instructions: https://retool.com/blog/building-a-react-navbar/
 import ProjectGrid from './components/projectGrid/projectGrid.js';
 import { About } from './components/about/about.js';
+import { Footer } from './components/footer/footer.js';
 
 function App() {
   
@@ -18,9 +19,10 @@ function App() {
     <div className="App">
       <Navbar />
       <ProjectGrid />
-      <About />
-      
       <br></br>
+      <About />
+      <br></br>
+      <Footer />
       <br></br>
       <br></br>
       <br></br>
