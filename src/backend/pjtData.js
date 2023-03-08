@@ -305,6 +305,6 @@ export const projectData = [
         description: "...",
         dateCreated: "November 27, 2017",
         siteUrl: "https://kennethrc2401.github.io/Broadway/",
-        toolsUsed: '...'
+        toolsUsed: 'Atom, HTML, CSS'
     }
 ]

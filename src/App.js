@@ -13,19 +13,16 @@ import { About } from './components/about/about.js';
 import { Footer } from './components/footer/footer.js';
 
 function App() {
-  
-
   return (
     <div className="App">
       <Navbar />
-      <ProjectGrid />
-      <br></br>
+      <br />
       <About />
-      <br></br>
+      <br />
+      <ProjectGrid />
+      <br />
+      <br />
       <Footer />
-      <br></br>
-      <br></br>
-      <br></br>
     </div>
   );
 }

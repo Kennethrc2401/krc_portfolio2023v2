@@ -1,3 +1,41 @@
 .footerSection {
     display: flex;
+    padding: 5px 4px;
+    min-width: 100%;
+    min-height: 90px;
+    /* z-index: 11; */
+    background-color: #3F00FF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companyLogo {
+    max-width: auto;
+    align-items: center;
+}
+.companyLogo img{
+    max-width: 34px;
+    margin: 3px 3px 3px 5px;
+}
+.copyright {
+    font-size: 14px;
+    color: #c6c6c6;
+}
+
+/* Socials */
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialLink {
+    color: #ffffff;
+    min-width: auto;
+    font-size: 24px;
+    /* margin: none; */
+    padding-left: 48%;
+}
+.linkedInSocialLink {
+    /* margin: none; */
+    font-size: 24px;
 }

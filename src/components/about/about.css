@@ -1,0 +1,44 @@
+ .aboutSection { 
+    align-items: left;
+    align-content: space-between;
+    padding: 2rem 0;
+}
+
+.aboutHeading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    align-self: flex-start;
+}
+
+.aboutSection img {
+    align-self: baseline;
+    padding: 0px 0px 0px 20px;
+    width: 300px;
+} 
+
+
+.aboutHeading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    align-self: flex-start;
+}
+.aboutColumn {
+    text-align: left;
+    padding: 0 1rem;
+    overflow: 'hidden';
+    text-overflow: ellipsis;
+    white-space:  'nowrap';
+    display: inline-block;
+
+}
+.aboutBio {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    position: relative;
+    align-self: flex-start;
+}

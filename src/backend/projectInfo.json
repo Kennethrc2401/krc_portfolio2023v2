@@ -1,0 +1,22 @@
+{
+    "projects": [
+     
+       {
+          "id":"02",
+          "imageSrc": "../../assets/projectImages/Dasmoto.png",
+          "title": "Title",
+          "dateCreated": "Unknown",
+          "url":"..."
+       },
+     
+       {
+         "id":"01",
+         "title":"Broadway Design",
+         "src": "../pjtImgs/Dasmoto.png",
+         "description": "...",
+         "dateCreated": "November 27, 2017",
+         "siteUrl": "https://kennethrc2401.github.io/Broadway/",
+         "toolsUsed": "..."
+       }
+    ]
+ }
