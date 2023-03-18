@@ -6,12 +6,13 @@
     /* z-index: 11; */
     background-color: #3F00FF;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .companyLogo {
     max-width: auto;
     align-items: center;
+    justify-content: center;
 }
 .companyLogo img{
     max-width: 34px;
@@ -20,6 +21,7 @@
 .copyright {
     font-size: 14px;
     color: #c6c6c6;
+    margin: 0px 0px 0px 5px;
 }
 
 /* Socials */

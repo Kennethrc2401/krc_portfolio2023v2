@@ -1,4 +1,4 @@
- .aboutSection { 
+.coursesSection {
     align-items: left;
     align-content: space-between;
     margin: 0 -15px -15px -15px;
@@ -9,46 +9,21 @@
     display: inline-block;/* IE */
 }
 
-.aboutRow {
+.coursesRow {
     display: inline-block;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    margin: 0 -15px -15px -15px;
     padding: 0 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space:  pre-wrap;
 }
 
-.aboutHeading {
+.coursesHeading {
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 1rem;
-    position: relative;
-    align-self: flex-start;
-}   
-
-.aboutSection img {
-    align-self: baseline;
-    padding: 0px 0px 0px 20px;
-    width: 300px;
-} 
-
-
-.aboutColumn {
-    text-align: left;
-    padding: 0 1rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space:  pre-wrap;
-    display: inline-block;
-    
-}
-.aboutBio {
-    font-size: 1.2rem;
-    font-weight: 400;
     margin-bottom: 1rem;
     position: relative;
     align-self: flex-start;

@@ -1,4 +1,3 @@
-
 const cyrb53 = function(str, seed = 0) {
     let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
     for (let i = 0, ch; i < str.length; i++) {
@@ -67,12 +66,56 @@ function determineImg(imageName){
         return <img src={require('../pjtImgs/HappyThanksgiving2018.png')} alt="Happy Thanksgiving 2018"/>
       case 'HappyHolidays201819':
         return <img src={require('../pjtImgs/HappyHolidays201819.png')} alt="Happy Holidays 2018-2019"/>
+      case 'ReactTsShoppingCart':
+        return <img src={require('../pjtImgs/ReactTsShoppingCart.png')} alt="React TypeScript Shopping Cart"/>
+      case 'EcomvisionAdminDashboardMERN':
+        return <img src={require('../pjtImgs/EcomvisionAdminDashboardMERN.png')} alt="Ecomvision Admin Dashboard (MERN)"/>
+      case 'TechNotesMERN':
+        return <img src={require('../pjtImgs/TechNotes.png')} alt="Tech Notes"/>
+      case 'ToDoAppIBMWeek5':
+        return <img src={require('../pjtImgs/IBM_ToDoListAppW5.png')} alt="To Do App IBM Week 5"/>
       default:  
         return <img src='' alt="null"/>
     }
   };
 
 export const projectData = [
+    {
+        key: cyrb53("ecomvisionAdminDashboardMERN"),
+        imgSrc: determineImg("EcomvisionAdminDashboardMERN"),
+        title: "Ecomvision Admin Dashboard (MERN)",
+        description: "...",
+        dateCreated: "February 26, 2023",
+        siteUrl: "https://github.com/Kennethrc2401/EcomvisionAdminDashboardMERN-Server",
+        toolsUsed: 'MongoDB, Express, React, Node.js'
+    },
+    {
+        key: cyrb53("reactTsShoppingCart"),
+        imgSrc: determineImg("ReactTsShoppingCart"),
+        title: "React TypeScript Shopping Cart",
+        description: "...",
+        dateCreated: "February 14, 2023",
+        siteUrl: "https://react-ts-shopping-cart-jwiy.onrender.com/",
+        toolsUsed: 'Vite, React, Typescript'
+    },
+    {
+        key: cyrb53("techNotesMERN"),
+        imgSrc: determineImg("TechNotesMERN"),
+        title: "Tech Notes (MERN)",
+        description: "...",
+        dateCreated: "February 2, 2023",
+        siteUrl: "https://github.com/Kennethrc2401/mern-stack-project1",
+        toolsUsed: 'MongoDB, Express, React, Node.js'
+    },
+    {
+        key: cyrb53("toDoAppIBMWeek5"),
+        imgSrc: determineImg("ToDoAppIBMWeek5"),
+        title: "To Do App (IBM Week 5)",
+        description: "...",
+        dateCreated: "January 31, 2023",
+        siteUrl: "https://github.com/Kennethrc2401/toDoList-IBM-W5",
+        toolsUsed: 'React, Node.js'
+    },
     {
         key: cyrb53("mothersDayCard2019"),
         imgSrc: determineImg("MothersDayCard2019"),

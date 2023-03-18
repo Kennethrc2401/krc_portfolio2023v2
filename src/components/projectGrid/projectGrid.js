@@ -8,18 +8,21 @@ import Card from 'react-bootstrap/Card';
 import {projectData} from '../../backend/pjtData';
 import { flexbox } from '@mui/system';
 import Placeholder from 'react-bootstrap/Placeholder';
+import styles from './projectGrid.css';
 
 function ProjectGrid() {
   if (projectData) {
     return (
-      <Container style={{zIndex: '0'}}>
+      <Container className="projectsSection" style={{zIndex: '0'}}>
         <Row style={{display: 'flex'}}>
                 <>
-                  <h1 style={{textAlign: 'center', margin: 'auto', padding: '5px'}}>Projects</h1>
+                  <Row className="projectsRow">
+                    <h1 className='projectsHeading' style={{textAlign: 'center', margin: 'auto', padding: '5px'}}>Projects</h1>
+                  </Row>
+                    
                   <div style={{display: 'flex', flexShrink: '10%', flexFlow: 'wrap'}}>
                     {projectData.map((project) => (
                     <Card style={{ width: '18rem', display: 'flex', margin: '5px auto', padding: '5px'}}>
-                        {/* <Card.Img variant="top" src={project.imgSrc} /> */}
                         <div>
                         {project.imgSrc}
                         </div>
