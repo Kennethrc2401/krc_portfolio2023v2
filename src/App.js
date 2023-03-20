@@ -20,6 +20,7 @@ function App() {
       <br />
       <About />
       <br />
+      <br />
       <ProjectGrid />
       <br />
       <br />

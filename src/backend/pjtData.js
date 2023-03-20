@@ -74,6 +74,10 @@ function determineImg(imageName){
         return <img src={require('../pjtImgs/TechNotes.png')} alt="Tech Notes"/>
       case 'ToDoAppIBMWeek5':
         return <img src={require('../pjtImgs/IBM_ToDoListAppW5.png')} alt="To Do App IBM Week 5"/>
+      case 'KennethsPortfolio':
+        return <img src={require('../pjtImgs/Kenneth-s_Portfolio.png')} alt="Kenneth's Portfolio"/>
+      case 'JSIssueTracker':
+        return <img src={require('../pjtImgs/JS-Issue-Tracker.png')} alt="JS Issue Tracker"/>
       default:  
         return <img src='' alt="null"/>
     }
@@ -135,6 +139,15 @@ export const projectData = [
         toolsUsed: '...'
     },
     {
+        key: cyrb53("jsIssueTracker"),
+        imgSrc: determineImg("JSIssueTracker"),
+        title: "JS Issue Tracker",
+        description: "...",
+        dateCreated: "April 18, 2019",
+        siteUrl: "https://kennethrc2401.github.io/JS-Issue-Tracker/#",
+        toolsUsed: 'JavaScript, HTML, CSS'
+    },
+    {
         key: cyrb53("spanishHonorSocietyHHS"),
         imgSrc: determineImg("SpanishHonorSocietyHHS"),
         title: "Spanish Honor Society - HHS",
@@ -186,6 +199,15 @@ export const projectData = [
         description: "...",
         dateCreated: "May 06, 2018",
         siteUrl: "https://kennethrc2401.github.io/Dasmoto-s_Arts_-_Crafts/",
+        toolsUsed: '...'
+    },
+     {
+        key: cyrb53("kennethsPortfolio"),
+        imgSrc: determineImg("KennethsPortfolio"),
+        title: "Kenneth's Portfolio",
+        description: "...",
+        dateCreated: "April 12, 2018",
+        siteUrl: "https://kennethrc2401.github.io/Kenneth-s_Portfolio/",
         toolsUsed: '...'
     },
     {

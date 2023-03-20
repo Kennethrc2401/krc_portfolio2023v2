@@ -44,10 +44,7 @@ function ProjectGrid() {
                     ))}
                   </div>
                 </>
-  
-          
-          {/* <Col sm={4}>sm=4</Col> */}
-        </Row>
+         </Row>
       </Container>
     );
   } else {
