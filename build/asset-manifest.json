@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.15fca63b.css",
-    "main.js": "/static/js/main.15561a67.js",
+    "main.css": "/static/css/main.01389f32.css",
+    "main.js": "/static/js/main.8cbbdea8.js",
     "static/js/787.13daa151.chunk.js": "/static/js/787.13daa151.chunk.js",
     "static/media/HappyHolidays201819.png": "/static/media/HappyHolidays201819.56bcc62e213611a5c282.png",
     "static/media/HappyThanksgiving2018.png": "/static/media/HappyThanksgiving2018.aad5eef3b684e5844e20.png",
@@ -17,11 +17,13 @@
     "static/media/Fresh_Deals.png": "/static/media/Fresh_Deals.832d035cc3df79fa11ba.png",
     "static/media/Hotels-In-Singapore.png": "/static/media/Hotels-In-Singapore.340dd122e4487203e4b0.png",
     "static/media/mothers_day_2019.png": "/static/media/mothers_day_2019.2ddab4ae088c064bb68b.png",
+    "static/media/KRC_Portfolio2023V2.png": "/static/media/KRC_Portfolio2023V2.47a2d7e6443a63573557.png",
     "static/media/WareHouse.png": "/static/media/WareHouse.e68bb6025d02b751de87.png",
     "static/media/SecretAgentSupply.png": "/static/media/SecretAgentSupply.2abae850541a60ac375c.png",
     "static/media/MyTimes.png": "/static/media/MyTimes.f23e3c943a0862c8fd58.png",
     "static/media/Broadway.png": "/static/media/Broadway.cbc6c942c09e1324d909.png",
     "static/media/Typography.png": "/static/media/Typography.c13ef9f8e1535cad2916.png",
+    "static/media/React_Native_Jobs_v1.png": "/static/media/React_Native_Jobs_v1.ac26db80db0e3071a6f2.png",
     "static/media/TortoiseShell_Optics.png": "/static/media/TortoiseShell_Optics.217b1a3bbe2ed6249c6b.png",
     "static/media/Dasmoto.png": "/static/media/Dasmoto.59eb85b04d3be1d5f195.png",
     "static/media/EcomvisionAdminDashboardMERN.png": "/static/media/EcomvisionAdminDashboardMERN.89b8abe30a75e1a05863.png",
@@ -39,14 +41,13 @@
     "static/media/IBM_Accelerate_2022_Software_Developer_Badge.png": "/static/media/IBM_Accelerate_2022_Software_Developer_Badge.b9965a3dcd17dfa68f3f.png",
     "static/media/ReactJS-Project.png": "/static/media/ReactJS-Project.a3aa93a7b88b3ac873d8.png",
     "static/media/Logo.png": "/static/media/Logo.f6308c287cce92b149b8.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.15fca63b.css.map": "/static/css/main.15fca63b.css.map",
-    "main.15561a67.js.map": "/static/js/main.15561a67.js.map",
+    "main.01389f32.css.map": "/static/css/main.01389f32.css.map",
+    "main.8cbbdea8.js.map": "/static/js/main.8cbbdea8.js.map",
     "787.13daa151.chunk.js.map": "/static/js/787.13daa151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15fca63b.css",
-    "static/js/main.15561a67.js"
+    "static/css/main.01389f32.css",
+    "static/js/main.8cbbdea8.js"
   ]
 }

@@ -9,3 +9,4 @@
 node_modules\.cache\.eslintcache
 node_modules/.cache/default-development/index.pack.old
 node_modules\.cache\default-development\*.pack
+node_modules/webpack/lib/ModuleBuildError.js
