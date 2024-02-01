@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
 import './Navigation/Navbar.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';

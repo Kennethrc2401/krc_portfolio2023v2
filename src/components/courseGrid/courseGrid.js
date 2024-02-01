@@ -16,7 +16,21 @@ function CourseGrid() {
             <Row style={{ display: "flex" }}>
             <>
                 <Row className="coursesRow">
-                <h1 className="coursesHeading" style={{ textAlign: "center", margin: "auto", padding: "5px" }}>
+                <h1 
+                    className="
+                        coursesHeading
+                        py-3
+                        mb-4
+                        text-4xl
+                        font-extrabold
+                        leading-none
+                        tracking-tight
+                        text-gray-900
+                        md:text-5xl
+                        lg:text-6xl
+                    " 
+                    style={{ textAlign: "center", margin: "auto", padding: "5px" 
+                }}>
                     Courses
                 </h1>
                 </Row>
@@ -40,17 +54,18 @@ function CourseGrid() {
                     <Card.Body>
                         <Card.Title>{course.title}</Card.Title>
                         <Card.Text>
-                        Offered By: {course.offeredBy}
+                        <courseAttribute>Offered By:</courseAttribute> {course.offeredBy}
                         <br />
                         {course.dateCompleted}
                         <br />
                         {course.description}
                         </Card.Text>
                         <Button
-                        variant="primary"
-                        href={course.certificateUrl}
-                        target="_blank"
-                        size="sm"
+                            className="viewCertificateBtn"
+                            variant="primary"
+                            href={course.certificateUrl}
+                            target="_blank"
+                            size="sm"
                         >
                         View Certificate
                         </Button>

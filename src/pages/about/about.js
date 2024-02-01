@@ -11,10 +11,17 @@ export class About extends Component {
                     <p>Fairleigh Dickinson University - GHSCSE,
                         Teaneck, NJ 07666
                     </p>
-                    <p className="aboutBio">Overachieving computer science student with a strong belief in self-motivated learning. 
-                    Adept at quickly learning and applying new skills. Strong teamwork and training skills. Fluent in Spanish and 
-                    English. Proficient with Python, robotics, Front-End Web Development, Microsoft Office, and photography. Seeking 
-                    CS careers in Frontend Web and Software Development, and Robotics.
+                    <p className="aboutBio">
+                        Overachieving Computer Science Senior, proficient with programming 
+                        languages used in software engineering (Python, JAVA,  CSS, C++, 
+                        and some JavaScript and C#); Nao AI Humanoid Robotics; HTML5 and 
+                        Front-End Web Development; Adobe Creative Cloud; and professional 
+                        sports photography. Completed IBM Accelerate Software Development 
+                        Internship. Seeking career in Software Engineering. Possess strong 
+                        teamwork and training skills from work as a Lab Assistant and TA. 
+                        Believe in initiative-taking learning. Adept at quickly applying 
+                        new skills. Fluent in Spanish and English. Active member of the 
+                        Institute for Electrical & Electronic Engineers (IEEE).
                     </p>
                 </div>
 

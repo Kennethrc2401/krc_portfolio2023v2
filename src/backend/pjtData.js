@@ -78,12 +78,25 @@ function determineImg(imageName){
         return <img src={require('../pjtImgs/Kenneth-s_Portfolio.png')} alt="Kenneth's Portfolio"/>
       case 'JSIssueTracker':
         return <img src={require('../pjtImgs/JS-Issue-Tracker.png')} alt="JS Issue Tracker"/>
+      case 'ReactNativeJobs':
+        return <img src={require('../pjtImgs/React_Native_Jobs_v1.png')} alt="React Native Jobs"/>
+      case 'KrcPortfolio2023V2':
+        return <img src={require('../pjtImgs/KRC_Portfolio2023V2.png')} alt="Kenneth's Portfolio 2023 V2"/>
       default:  
         return <img src='' alt="null"/>
     }
   };
 
 export const projectData = [
+    {
+        key: cyrb53("reactNativeJobs"),
+        imgSrc: determineImg("ReactNativeJobs"),
+        title: "React Native Jobs",
+        description: "...",
+        dateCreated: "March 23, 2023",
+        siteUrl: "https://github.com/Kennethrc2401/react_native_jobs",
+        toolsUsed: 'React Native, Expo, Axios'
+    },
     {
         key: cyrb53("ecomvisionAdminDashboardMERN"),
         imgSrc: determineImg("EcomvisionAdminDashboardMERN"),
@@ -119,6 +132,15 @@ export const projectData = [
         dateCreated: "January 31, 2023",
         siteUrl: "https://github.com/Kennethrc2401/toDoList-IBM-W5",
         toolsUsed: 'React, Node.js'
+    },
+    {
+        key: cyrb53("krcPortfolio2023V2"),
+        imgSrc: determineImg("KrcPortfolio2023V2"),
+        title: "Kenneth's Portfolio 2023v2",
+        description: "...",
+        dateCreated: "December 1, 2022",
+        siteUrl: "https://github.com/Kennethrc2401/krc_portfolio2023v2",
+        toolsUsed: 'React, Node.js,TwalwindCSS'
     },
     {
         key: cyrb53("mothersDayCard2019"),

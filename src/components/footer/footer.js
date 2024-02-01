@@ -27,7 +27,7 @@ export class Footer extends React.Component {
                 </section>
                 <section className="socials">
                     <a className="socialLink" href="mailto:Kennethrc19@student.fdu.edu" title="Email">{ emailIcon }</a>
-                    <a className="socialLink" href="https://www.kenneth-s-photos.com/" target="_blank" rel="noopener noreferrer">{ cameraIcon }</a>
+                    <a className="socialLink" href="http://kenneth-s-photos.weebly.com/dev.html" target="_blank" rel="noopener noreferrer">{ cameraIcon }</a>
                     <a className="socialLink linkedInSocialLink" href="https://www.linkedin.com/in/kenneth-ramirez-castro-260a0598/" target="_blank" rel="noopener noreferrer"><LinkedInIcon></LinkedInIcon></a>
                     
                 </section>
@@ -38,7 +38,7 @@ export class Footer extends React.Component {
                     
                 </section> */}
                 <section className="copyright">
-                    <p>Copyright &copy; Kenneth Ramirez - 2023</p>
+                    <p>Copyright &copy; Kenneth Ramirez - 2023-24</p>
                 </section>
             </Container>
         )

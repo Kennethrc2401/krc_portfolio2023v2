@@ -1,46 +1,81 @@
-import React, { useEffect , useState} from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 // import ProjectCard from './projectCard.js';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import {projectData} from '../../backend/pjtData';
-import { flexbox } from '@mui/system';
 import Placeholder from 'react-bootstrap/Placeholder';
 import styles from './projectGrid.css';
 
 function ProjectGrid() {
   if (projectData) {
     return (
-      <Container className="projectsSection" style={{zIndex: '0'}}>
-        <Row style={{display: 'flex'}}>
+      <Container 
+        className="projectsSection" 
+        style={{
+          zIndex: '0'
+        }}
+      >
+        <Row 
+          style={{
+            display: 'flex',
+            }}>
                 <>
                   <Row className="projectsRow">
-                    <h1 className='projectsHeading' style={{textAlign: 'center', margin: 'auto', padding: '5px'}}>Projects</h1>
+                    <h1 
+                      className="
+                        projectsHeading 
+                        py-3
+                        mb-4
+                        text-4xl
+                        font-extrabold
+                        leading-none
+                        tracking-tight
+                        text-gray-900
+                        md:text-5xl
+                        lg:text-6xl
+                      "
+                      style={{
+                        textAlign: 'center',
+                        margin: 'auto', 
+                        padding: '5px'
+                      }}>
+                        Projects
+                      </h1>
                   </Row>
                     
-                  <div style={{display: 'flex', flexShrink: '10%', flexFlow: 'wrap'}}>
+                  <div 
+                    style={{
+                      display: 'flex', 
+                      flexShrink: '10%', 
+                      flexFlow: 'wrap',
+                    }}>
                     {projectData.map((project) => (
-                    <Card style={{ width: '18rem', display: 'flex', margin: '5px auto', padding: '5px'}}>
-                        <div>
+                    <Card 
+                      style={{ 
+                        width: '18rem', 
+                        display: 'flex', 
+                        margin: '5px auto', 
+                        padding: '5px'
+                      }}>
+                      <div>
                         {project.imgSrc}
-                        </div>
-                        <Card.Body>
-                          <Card.Title>
-                            {project.title}
-                          </Card.Title>
-                          <Card.Text>
-                            {project.description}
-                            <br></br>
-                            Created: {project.dateCreated}
-                            <br></br>
-                            Tools Used: {project.toolsUsed}
+                      </div>
+                      <Card.Body>
+                        <Card.Title className='projectTitle'>
+                          {project.title}
+                        </Card.Title>
+                        <Card.Text>
+                          <projectAttribute>Description:</projectAttribute> {project?.description}
+                          <br></br>
+                          <projectAttribute>Created:</projectAttribute> {project.dateCreated}
+                          <br></br>
+                          <projectAttribute>Tools Used:</projectAttribute> {project.toolsUsed}
                         </Card.Text>
-                        <Button variant="primary" href={project.siteUrl} target="_blank" size='sm'>View Project</Button>
+                        <Button className='viewProjectBtn' variant="primary" href={project.siteUrl} target="_blank" size='sm'>View Project</Button>
                       </Card.Body>
                     </Card>
-  
                     ))}
                   </div>
                 </>
@@ -56,7 +91,8 @@ function ProjectGrid() {
             <Placeholder xs={6} />
           </Placeholder>
           <Placeholder as={Card.Text} animation="glow">
-            <Placeholder xs={7} /> <Placeholder xs={4} /> <Placeholder xs={4} />{' '}
+            <Placeholder xs={7} /> <Placeholder xs={4} /> 
+            <Placeholder xs={4} />{' '}
             <Placeholder xs={6} /> <Placeholder xs={8} />
           </Placeholder>
           <Placeholder.Button variant="primary" xs={6} />

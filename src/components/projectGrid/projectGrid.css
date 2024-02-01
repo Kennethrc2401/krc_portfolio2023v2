@@ -1,12 +1,16 @@
+
+
 .projectsSection {
-    align-items: left;
+    display: inline-block;
+    align-items: center;
     align-content: space-between;
     margin: 0 -15px -15px -15px;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space:  pre-wrap;
-    display: inline-block;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .projectsRow {
@@ -18,7 +22,8 @@
     padding: 0 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space:  pre-wrap;
+    white-space: pre-wrap;
+    max-width: 100%;
 }
 
 .projectsHeading {
@@ -27,4 +32,33 @@
     margin-bottom: 1rem;
     position: relative;
     align-self: flex-start;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    align-self: flex-start;
+}
+
+projectAttribute {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    align-self: flex-start;
+}
+
+.viewProjectBtn {
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;
+    align-self: flex-start;
+}
+
+.viewProjectBtn:hover {
+    background-color: #d9b2f1;
+    color: #000;
+    border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
 }
